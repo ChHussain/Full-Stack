@@ -1,0 +1,7 @@
+schemaVersion: 1.2
+components:
+  - name: backend
+    type: Service
+    language: Python
+    version: 3.11.x
+    runCommand: python manage.py runserver 0.0.0.0:8000
